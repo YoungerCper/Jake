@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>NAQR</title>
+			<meta charset="utf-8">
+		</head>
+
+		<body>
+			<p onclick="soundClick()">Кликни по этому тексту</p>
+			<script type="text/javascript">
+				function soundClick() {
+					var audio = new Audio(); // Создаём новый элемент Audio
+  					audio.src = 'click.mp3'; // Указываем путь к звуку "клика"
+  					audio.autoplay = true; // Автоматически запускаем
+  				}
+			</script>
+		</body>
+</html>
